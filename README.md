@@ -1,2 +1,2 @@
 # python
-Códigos em Python
+Scripts em Python
