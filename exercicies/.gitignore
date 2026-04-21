@@ -1,5 +1,5 @@
-# Ignorar pasta .idea
-.log/
-# Ignorar pasta .ven
+# Ignore folder .idea
+.idea/
+# Ignore folder .ven
 .ven/
 
