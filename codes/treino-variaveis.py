@@ -1,5 +1,6 @@
-nome='Guilherme'
+sobrenome='Linhares'
 cidade='Fortaleza'
 estado='Ceará'
-DDD=85
-print(nome,cidade,estado,DDD)
+ddd=85
+peso=69.5
+print(sobrenome,cidade,estado,ddd,peso)
