@@ -6,4 +6,3 @@
 #Também pode ser chamado aqui no Brasil com Capitalizado.
 n=input('Digite algo: ')
 print(n.istitle())
-print(n.isspace)
