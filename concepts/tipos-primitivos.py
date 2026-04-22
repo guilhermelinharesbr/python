@@ -19,5 +19,3 @@ c=bool(input('Digite um valor para C: '))
 print(c)
 d=str(input('Digite um valor para D: '))
 print(d)
-
-
