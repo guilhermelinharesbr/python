@@ -1,3 +1,4 @@
+#O print() é built-in function, ou seja uma função interna do Python. 
 #Exemplos de uso da função print():
 
 numero1=int(input('Digite o primeiro número:'))
