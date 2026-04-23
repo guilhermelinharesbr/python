@@ -70,8 +70,13 @@ divisao=n1 / n2
 divisaoInteira = n1 // n2
 exponeciacao = n1 ** n2
 #O {:.3f} indica que só deverá mostra as 3 primeiras casas decimais.
-#Por exemplo em uma divisão de '4 / 3 ==1.333' ao invés de '1.3333333333333333':
-print('A soma é:{}, a subratação é:{}, a divisão é:{:.3f} '.format(soma,subtracao,divisao))
-print('A divisão inteira é:{} e a potência é:{}'.format(divisaoInteira,exponeciacao))
+#Por exemplo em uma divisão de '4 / 3 ==1.333' ao invés de '1.3333333333333333'
+#\n é usado para quebra de linha.
+#Este end='' é usado para não quebrar a linha entre uma função print() e a outra()
+# Poderia ser end='>>>', com isso iria adicionar >>> no final da linha, mas 
+#sem dar uma quebra de linha:
+print('A soma é:{}, \n a subratação é:{}, a divisão é:{:.3f} '.format(soma,subtracao,divisao), end='')
+print('A divisão inteira é:{}'.format(divisaoInteira),end='>>>')
+print('e a potência é:{}'.format(exponeciacao))
 
 
