@@ -1,9 +1,9 @@
 #O print() é built-in function, ou seja uma função interna do Python. 
 #Exemplos de uso da função print():
 
-numero1=int(input('Digite o primeiro número:'))
-numero2=int(input('Digite o segundo número:'))
-soma=numero1+numero2
+numero1 = int(input('Digite o primeiro número:'))
+numero2 = int(input('Digite o segundo número:'))
+soma = numero1 + numero2
 #Mostrando um exemplo com a máscara {} e o Método .format(soma)
 print('A soma é igual a: {}'.format(soma))
 #print(type('A variável soma é do tipo: ',(soma))

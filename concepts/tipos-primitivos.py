@@ -8,14 +8,14 @@
 
 ### Testando a tipagem das variáveis:
 #No caso do tipo int, se digitar uma letra ele dará um erro no código.
-a=int(input('Digite um valor para A: '))
+a = int(input('Digite um valor para A: '))
 print(a)
 #No caso do tipo float, se digitar uma letra ele dará um erro no código.
-b=float(input('Digite um valor para B: '))
+b = float(input('Digite um valor para B: '))
 print(b)
 #No caso do tipo bool, se digitar algo ele retornará True,
 #se não digitar nada retornará False. 
-c=bool(input('Digite um valor para C: '))
+c = bool(input('Digite um valor para C: '))
 print(c)
-d=str(input('Digite um valor para D: '))
+d = str(input('Digite um valor para D: '))
 print(d)

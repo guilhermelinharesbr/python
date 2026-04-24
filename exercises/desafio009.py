@@ -2,7 +2,7 @@
 #na tela a sua tabuada.
 
 #Primeira forma
-valor=int(input('Digite um número para ver sua tabuada:'))
+valor = int(input('Digite um número para ver sua tabuada:'))
 print('-'*12)
 print(valor,' x ',('1'), ' = ',(valor*1))
 print(valor,' x ',('2'), ' = ',(valor*2))
@@ -17,7 +17,7 @@ print(valor,' x',('10'), ' = ',(valor*10))
 print('-'*12)
 
 #Segunda forma
-valor=int(input('Digite um número para ver sua tabuada:'))
+valor = int(input('Digite um número para ver sua tabuada:'))
 print('-'*12)
 print('{} x {:2} = {}'.format(valor, 1, valor*1))
 print('{} x {:2} = {}'.format(valor, 2, valor*2))

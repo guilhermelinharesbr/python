@@ -4,5 +4,5 @@
 #contrário, retorna False.
 #Símbolos e números são ignorados.
 #Também pode ser chamado aqui no Brasil com Capitalizado.
-n=input('Digite algo: ')
+n = input('Digite algo: ')
 print(n.istitle())

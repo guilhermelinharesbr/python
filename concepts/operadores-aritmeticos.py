@@ -61,12 +61,12 @@ print('Prazer em te conhecer {:=^20}!'.format(nome))
 
 #####################
 
-n1=int(input('Um valor:'))
+n1 = int(input('Um valor:'))
 n2 = int(input('Outro valor:'))
 soma = n1 + n2
 subtracao = n1 - n2
 multiplicacao = n1 * n2
-divisao=n1 / n2
+divisao = n1 / n2
 divisao_inteira = n1 // n2
 exponeciacao = n1 ** n2
 #O {:.3f} indica que só deverá mostra as 3 primeiras casas decimais.
