@@ -67,4 +67,4 @@ print(num2)
 #Ao buscar por emoji, é vista abiblioteca emoji 2.15.0, com ela pode-se usar emojis nos códigos. Pode-se procurar por "Emoji Cheat Sheet" lá mostram os Emoji em inglês.
 
 #Descobrir como instalar a biblioteca emoji no Pycharm e no VS Code.
-#import emoji
+import emoji
