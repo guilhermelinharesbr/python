@@ -67,4 +67,20 @@ print(num2)
 #Ao buscar por emoji, é vista abiblioteca emoji 2.15.0, com ela pode-se usar emojis nos códigos. Pode-se procurar por "Emoji Cheat Sheet" lá mostram os Emoji em inglês.
 
 #Descobrir como instalar a biblioteca emoji no Pycharm e no VS Code.
+#import emoji
+
+#Para instalar a Biblioteca emoji é preciso usar o terminal do vscode
+#Atalho para abrir o terminal no vscode é o 
+#Ctrl + `   <- crase
+#pip install emoji
+#antes disso rodar sudo apt install python3-pip
+
+#para só então rodar o import emoji
+#No pycharm é mais fácil basta digitar import emoji e caso não tenha a biblioteca irá aparecer um 
+
 import emoji
+print(emoji.emojize('Python is :thumbs_up:'))
+print(emoji.emojize('Olá Mundo :sunglasses:'))
+print(emoji.emojize('Olá Mundo 😎'))
+print(emoji.emojize('Olá Mundo :smiling_face_with_sunglasses:'))
+
