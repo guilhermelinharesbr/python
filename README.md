@@ -1,3 +1,4 @@
 # python
-Study on the Python programming language
-# Primeiro dia em 21/04/26
+Estduo da linguagem de programação Python
+
+Primeiro dia de estudo 21/04/26
