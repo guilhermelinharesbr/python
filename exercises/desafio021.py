@@ -6,19 +6,23 @@ reproduza o áudio de um arquivo MP3."""
 pip install pygame.
 O pygame tem funcionalidade para carregar, sons, imagens, vídeos.
 Obs: Estou trabalhando 3.14.4 em uma máquina Windows 11, porém
-a biblioteca pygame não tem compatibilidade ainda com essa versão do python,
-por isso foi preciso instalar a versão 3.12.10 do Python."""
+a biblioteca pygame não tem compatibilidade ainda com essa versão 
+do python, por isso foi preciso instalar a versão 3.12.10 do Python."""
 import pygame
 import time
+import os
 
 #Iniciando o pygame:
 pygame.init()
 
-arquivo = r'C:\Users\guilherme.linhares\Documents\GitHub\python\exercises\desafio021.mp3'
+# Funciona no Windows e no Linux automaticamente!
+pasta = os.path.dirname(os.path.abspath(__file__))
+arquivo = os.path.join(pasta, 'desafio021.mp3')
 
 pygame.mixer.music.load(arquivo)
+# volume máximo (0.0 a 1.0):
+pygame.mixer.music.set_volume(0.5)
 pygame.mixer.music.play()
-pygame.mixer.music.set_volume(0.5)  # volume máximo (0.0 a 1.0)
 print("▶ Tocando áudio...")
 
 # Mantém o programa vivo enquanto o áudio toca
