@@ -8,3 +8,5 @@ angulo = float(input('Digite o valor do ângulo:'))
 O ângulo de {} tem o SENO de {}
 O ângulo de {} tem o COSSENO de {}
 O ângulo de {} tem a TANGENTE de {}
+
+#
