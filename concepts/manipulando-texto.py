@@ -110,6 +110,7 @@ Observação no Python tudo é um objeto.
 
 frase = 'Curso em Vídeo Python'
 print(frase)
+print(frase[0])
 print(frase[3])
 print(frase[3:13])
 print(frase[:13])
@@ -124,6 +125,18 @@ print(frase.upper().count('O'))
 #Esse print acima primeiro converte os caracteres para maiúsculo para só depois contar as letra 'O' maiúsculas.
 print(len(frase))
 print(len(frase.strip()))
+print(frase.replace('Python', 'Android'))
+print(frase)
+frase = print(frase.replace('Python', 'Android'))
+#Uma String imutável, a menos que seja utilizado um método de substituição e depois seja feita uma atribuição.
+print('Curso' in frase )
+print(frase.find('Curso'))
+print(frase.find('Vídeo'))
+print(frase.find('vídeo'))
+print(frase.lower().find('vídeo'))
+print(frase.split())
 
+dividido = frase.split()
+print(dividido[0])
+print(dividido[2][3])
 
-PAREI EM 34 MIN
