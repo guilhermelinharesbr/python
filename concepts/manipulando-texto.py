@@ -6,7 +6,7 @@ Fatiamento de String
 
 Ex:
 frase='Curso em Vídeo Python'
-       0123456789...     <- mricoespaços
+       0123456789...     <- microespaços
 
 A frase acima ocupa 21 microespaços, começa a contar do 0 e acaba no 20, os espaços em branco também contam um micro espaço.
 
@@ -32,7 +32,7 @@ Analisando uma String:
 
 Ex:
 frase='Curso em Vídeo Python'
-       0123456789...     <- mricoespaços
+       0123456789...     <- microespaços
 
 len(frase)
 O len vem de length que significa comprimento, ou seja esse método len() mostra que a String frase tem 21 caracteres.
@@ -58,7 +58,7 @@ Transformação de String:
 
 Ex1:
 frase='Curso em Vídeo Python'
-       0123456789...     <- mricoespaços
+       0123456789...     <- microespaços
 
 frase.replace('Python,'Android')
 O método replace() serve para procurar na lista de nome frase a String 'Python' e ao encontrar substituir ela por 'Android', e ficaria assim 'Curso em Vídeo Android'. Essa aletração é momentânea, para que ela seja definitiva é preciso atribuir a lista de nome frase como pode ser visto em:
@@ -79,7 +79,7 @@ O método title() serve para deixar todos caracteres da lista de nome frase com 
 
 Ex2:
 frase='   Aprenda Python  '
-       0123456789...     <- mricoespaços
+       0123456789...     <- microespaços
 A lista acima é composta do índice 0 até o 18, sendo que do 0 a 2 são espaços em branco e do 17 ao 18 também.
 
 frase.strip()
@@ -97,7 +97,7 @@ Divisão de String:
 
 Ex:
 frase='Curso em Vídeo Python'
-       0123456789...     <- mricoespaços
+       0123456789...     <- microespaços
 
 frase.split()
 O método split() serve para fazer uma divisão das palavras da lista de nome frase, ficando 'Curso' 'em' 'Vídeo' 'Python', com o detalhe que antes era uma lista que ia do índice 0 ao 18, e agora o 'Curso' vai de 0 ao 4, o 'em' vai do 0 ao 1, o 'Vídeo' vai do 0 ao 4, o 'Python' vai do 0 ao 5. 
@@ -108,7 +108,7 @@ Junção de String:
 
 Ex:
 frase='Curso' 'em' 'Vídeo' 'Python'
-       0123456789...     <- mricoespaços
+       0123456789...     <- microespaços
 
 '-'.join(frase)
 O método join() serve para juntar os elementos da lista de nome frase, com o detalhe que serão juntos com o separador '-', ficando 'Curso-em-Vídeo-Python'
