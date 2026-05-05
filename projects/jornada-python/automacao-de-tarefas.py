@@ -27,13 +27,20 @@ time.sleep(3)
 
 # Passo 2: Fazer login
 # selecionar o campo de email
-# Feito no minitor Positivo
-pyautogui.click(x=717, y=414)
+# Feito no monitor Positivo
+#pyautogui.click(x=717, y=414)
+
+# Feito no monitor Notebook Samsung
+pyautogui.click(x=607, y=553)
+
 # escrever o seu emailpythonimpressionador@gmail.com    
 pyautogui.write("youremail@gmail.com")
 pyautogui.press("tab") # passando pro próximo campo
 pyautogui.write("DtR48732##!@!213")
-pyautogui.click(x=939, y=568) # clique no botao de login
+# Feito no monitor Positivo
+#pyautogui.click(x=939, y=568) # clique no botao de login
+# Feito no monitor Notebook Samsung
+pyautogui.click(x=978, y=757) # clique no botao de login
 time.sleep(3)
 
 # Passo 3: Importar a base de produtos pra cadastrar
@@ -50,7 +57,10 @@ print(tabela)
 # Passo 4: Cadastrar um produto
 for linha in tabela.index:
     # clicar no campo de código
-    pyautogui.click(x=679, y=292)
+    # Feito no monitor Positivo
+    #pyautogui.click(x=679, y=292)
+    # Feito no monitor Notebook Samsung
+    pyautogui.click(x=659, y=414)
     # pegar da tabela o valor do campo que a gente quer preencher
     codigo = tabela.loc[linha, "codigo"]
     # preencher o campo
