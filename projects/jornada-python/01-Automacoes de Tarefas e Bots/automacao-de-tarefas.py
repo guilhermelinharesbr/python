@@ -3,7 +3,8 @@
     # https://dlp.hashtagtreinamentos.com/python/intensivao/login
 
 # pip install pyautogui
-import pyautogui
+import pyautogui    
+
 import time
 from pathlib import Path
 
