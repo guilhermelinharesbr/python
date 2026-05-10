@@ -28,8 +28,42 @@ elif carro.ré():
     bloco3
 else:
     bloco4
-
-
 """
 
-PAREI EM 11 MIN da AULA 49
+#Prática
+
+#Condição Simples
+nome = str(input('Qual é o seu nome? '))
+if nome == 'Guilherme':
+    print('Você é meu chará.')
+print('Tenha um bom dia, {}!'.format(nome))
+
+#Condição Composta
+nome = str(input('Qual é o seu nome? '))
+if nome == 'Guilherme':
+    print('Você é meu chará.')
+else:
+    print('Seu nome é bem normal.')
+print('Tenha um bom dia, {}!'.format(nome))
+
+#Condição Aninhada
+nome = str(input('Qual é o seu nome? '))
+if nome == 'Guilherme':
+    print('Você é meu chará.')
+elif nome == 'Maria' or nome == 'João' or nome == 'José':
+    print('Seu nome é bem popular no Brasil.')
+elif nome in 'Ana Cláudia Emanuele':
+    print('Belo nome feminino.')
+else:
+    print('Seu nome é bem normal.')
+print('Tenha um bom dia, {}!'.format(nome))
+
+#Condição Aninhada sem else
+nome = str(input('Qual é o seu nome? '))
+if nome == 'Guilherme':
+    print('Você é meu chará.')
+elif nome == 'Maria' or nome == 'João' or nome == 'José':
+    print('Seu nome é bem popular no Brasil.')
+elif nome in 'Ana Cláudia Emanuele':
+    print('Belo nome feminino.')
+print('Tenha um bom dia, {}!'.format(nome))
