@@ -11,7 +11,6 @@ calcule seu IMC e mostre seu status, de acordo com a tabela abaixo:
 """
 
 #Primeira forma
-#ERRADO ------------------------ CORRIGIR
 peso = float(input('Digite o seu peso em (Kg): '))
 altura = float(input('Digite sua altura em (m): '))
 imc = peso / (altura * altura)
