@@ -75,4 +75,15 @@ for c in range(i, f+1, p):
     print(c)
 print('FIM')
 
-#####   PAREI EM 23 MIN DE AULA
+# Para pedir para digitar o valor 3 vezes
+for c in range(0,3):
+    n = int(input('Digite um valor: '))
+print('FIM')
+
+# Para pedir para digitar o valor 3 vezes
+s = 0
+for c in range(0, 4):
+    n = int(input('Digite um valor: '))
+    # É o mesmo que 's = s + n':
+    s += n
+print('O somatório de todos os valores foi {}'.format(s))
