@@ -3,7 +3,7 @@ Crie um programa que faça o computador jogar Jokenpô com você.
 """
 
 #Primeira forma
-import time
+from time import sleep
 from random import randint
 print('-=-' * 5, 'JO-KEN-PO', ('-=-' * 5))
 num_jogador = int(input("""
@@ -12,51 +12,35 @@ num_jogador = int(input("""
 [ 2 ] TESOURA
 Qual é a sua jogada? """))
 print('JO')
-time.sleep(1)
+sleep(1)
 print('KEN')
-time.sleep(1)
+sleep(1)
 print('PO!!!')
-time.sleep(1)
+sleep(1)
 num_maquina = randint(0,2)
 print('-=-' * 10)
 
-escolha_jogador = str('')
-escolha_maquina = str('')
+opcoes = ['PEDRA', 'PAPEL', 'TESOURA']
+escolha_jogador = opcoes[num_jogador]
+escolha_maquina = opcoes[num_maquina]
 
-if num_jogador == 0:
-    escolha_jogador = 'PEDRA'
-if num_jogador == 1:
-    escolha_jogador = 'PAPEL'
-if num_jogador == 2:
-    escolha_jogador = 'TESOURA'
-if num_maquina == 0:
-    escolha_maquina = 'PEDRA'
-if num_maquina == 1:
-    escolha_maquina = 'PAPEL'
-if num_maquina == 2:
-    escolha_maquina = 'TESOURA'
 print('O Jogador escolheu {}'.format(escolha_jogador))
 print('A Máquina escolheu {}'.format(escolha_maquina))
 
 if num_jogador == num_maquina:
     print('EMPATE')
-elif num_jogador == 0 and num_maquina == 1:
-    print('A MÁQUINA VENCEU, pois o Jogador ecolheu Pedra e a Máquina Papel.') 
-    if num_jogador == 0 and num_maquina == 2:
-        print('O JOGADOR VENCEU, pois o Jogador ecolheu Pedra e a Máquina Tesoura.')
-elif num_jogador == 1 and num_maquina == 0:
-    print('O JOGADOR VENCEU, pois o Jogador ecolheu Papel e a Máquina Pedra.')
-    if num_jogador == 1 and num_maquina == 2:
-        print('A MÁQUINA VENCEU, pois o Jogador ecolheu Papel e a Máquina Tesoura.')
-elif num_jogador == 2 and num_maquina == 0:
-    print('A MÁQUINA VENCEU, pois o Jogador ecolheu Tesoura e a Máquina Pedra.')
-    if num_jogador == 2 and num_maquina == 1:
-        print('O JOGADOR VENCEU, pois o Jogador ecolheu Tesoura e a Máquina Papel.')
+elif (num_jogador == 0 and num_maquina == 2) or \
+    (num_jogador == 1 and num_maquina == 0) or \
+    (num_jogador == 2 and num_maquina == 1):
+    print('O JOGADOR VENCEU, pois {} vence {}.'.format(escolha_jogador,escolha_maquina))
+else:
+    print('A MÁQUINA VENCEU, pois {} vence {}.'.format(escolha_maquina,escolha_jogador))    
 
 print('-=-' * 20)
 
+
 #Segunda forma - "Versão do Dante"
-import time
+from time import sleep
 from random import randint
 print('-=-' * 5, 'JO-KEN-PO', ('-=-' * 5))
 num_jogador = int(input("""
@@ -65,11 +49,11 @@ num_jogador = int(input("""
 [ 2 ] TESOURA
 Qual é a sua jogada? """))
 print('JO')
-time.sleep(1)
+sleep(1)
 print('KEN')
-time.sleep(1)
+sleep(1)
 print('PO!!!')
-time.sleep(1)
+sleep(1)
 num_maquina = randint(0,2)
 print('-=-' * 10)
 
@@ -110,6 +94,7 @@ elif num_jogador == 2:
         print('O JOGADOR VENCEU, pois o Jogador ecolheu Tesoura e a Máquina Papel.')
 
 print('-=-' * 20)
+
 
 #Terceira forma
 from random import randint
