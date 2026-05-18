@@ -1,11 +1,11 @@
 # Operadores Aritméticos:
-# + Adição -> Ex: 5+2==7
-# - Subtração -> Ex: 5-2==3
-# * Multiplicação -> Ex: 5*2==10
-# / Divisão -> Ex: 5/2==2.5
-# ** Potência -> Ex: 5**2==25
-# // Divisão Inteira -> Ex: 5//2==2
-# % Resto da Divisão -> Ex: 5%2==1
+# + Adição -> Ex: 5 + 2 == 7
+# - Subtração -> Ex: 5 - 2 == 3
+# * Multiplicação -> Ex: 5 * 2 == 10
+# / Divisão -> Ex: 5 / 2 == 2.5
+# ** Potência -> Ex: 5 ** 2 == 25
+# // Divisão Inteira -> Ex: 5 // 2 == 2
+# % Resto da Divisão -> Ex: 5 % 2 == 1
 # == Igual
 # = Atribuição ou também conhecido com Recebe.
 
