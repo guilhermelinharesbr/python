@@ -19,6 +19,8 @@ print('FIM')
 print('A soma de todos esses {} números é {}.'.format(quantidade, soma_total))
 print('=' * 20)
 
+###############################
+
 #Segunda forma
 
 #Acumulador:
