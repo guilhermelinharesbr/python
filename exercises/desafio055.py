@@ -2,7 +2,7 @@
 Faça um programa que leia o peso de cinco pessoas. 
 No final, mostre qual foi o maior e o menor peso lidos.
 """
-"""
+
 #Primeira forma
 maior_peso = 0
 menor_peso = 0
@@ -20,7 +20,8 @@ for pessoa in range (1, 6):
 print(f'O Peso é {peso}')
 print(f'O Maior peso é {maior_peso}')
 print(f'O Menor peso é {menor_peso}')
-"""
+
+
 #Segunda forma
 maior = 0
 menor = 0
