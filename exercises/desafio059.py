@@ -9,3 +9,10 @@ um menu na tela:
 Seu programa deverá realizar a operação solicitada
 em cada caso.
 """
+
+#Primeira forma
+
+valor1 = int(input('Primeiro valor: '))
+valor2 = int(input('Segundo valor: '))
+
+#Segunda forma
