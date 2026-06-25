@@ -5,5 +5,29 @@ digitar o valor 999, que é a condição de parada. No
 final, mostre quantos números foram digitados e qual 
 foi a soma entre eles(desconsiderando o número flag).
 
-Obs: O número flag desta questão é 0 999.
+Obs: O número flag desta questão é o 999.
 """
+
+#Primeira forma
+cont = 0
+n = 0
+soma = 0
+
+while n != 999:
+    n = int(input('Digite um número [999 para parar]: '))
+    print(f'{n}')
+    soma = n + soma
+    cont += 1    
+print(f'Você digitou {cont - 1} números e a soma entre eles foi {soma - 999}.')
+
+
+#Segunda forma
+num = cont = soma = 0
+num = int(input('Digite um número [999 para parar]: '))
+print(f'{num}') 
+while num != 999:
+    soma += num
+    cont += 1
+    num = int(input('Digite um número [999 para parar]: '))
+    print(f'{num}')    
+print('Você digitou {} números e a soma entre eles foi {}.'.format(cont, soma))
