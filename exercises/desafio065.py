@@ -5,7 +5,7 @@ entre todos os valores e qual foi o maior e o menor
 valores lidos. O programa deve perguntar ao usuário
 se ele quer ou não continuar a digitar valores.  
 """
-"""
+
 #Primeira forma
 num = maior_valor = menor_valor = cont = soma = media = 0 
 continuar = 'x'
@@ -26,7 +26,7 @@ while continuar != 'n':
 media = soma / cont
 print(f'Você digitou {cont} número(s) e a média foi {media:.2f}.')
 print(f'O maior valor foi {maior_valor} e o menor foi {menor_valor}.')
-"""
+
 #################
 
 #Segunda forma
