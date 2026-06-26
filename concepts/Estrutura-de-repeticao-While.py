@@ -46,7 +46,7 @@ while n != 0:
 print('Fim')
 
 
-#flag, será o número 0.
+#flag, será 'S'.
 r = 'S'
 while r == 'S':
     n = int(input('Digite um valor: '))
