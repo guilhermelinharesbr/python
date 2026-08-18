@@ -4,7 +4,7 @@ o mês e o ano de nascimento de uma pessoa
 e mostre uma mensagem com a data formatada.
 """
 
-
+#Primeira forma
 dia = input('Qual o seu Dia de nascimento?')
 mes = input('Qual o seu Mês de nascimento?')
 ano = input('Qual o seu Ano de nascimento?')
