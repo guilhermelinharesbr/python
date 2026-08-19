@@ -1,5 +1,7 @@
-#Desenvolva um programa que leia as duas notas
-#de um aluno, calcule e mostre a sua média.
+"""
+Desenvolva um programa que leia as duas notas
+de um aluno, calcule e mostre a sua média.
+"""
 
 #Primeira forma, usando várias variáveis
 nota1 = float(input('Digite sua primeira nota:'))
