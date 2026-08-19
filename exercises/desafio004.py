@@ -1,6 +1,10 @@
-#Faça um programa que leia algo pelo teclado
-#e mostre na tela o seu tipo primitivo e todas as 
-#informações possíveis sobre ele.
+"""
+Faça um programa que leia algo pelo teclado
+e mostre na tela o seu tipo primitivo e todas as 
+informações possíveis sobre ele.
+"""
+
+#Primeira forma
 valor = input('Digite algo: ')
 print('O tipo primitivo desse valor é:', type(valor))
 print('É um espaco?',valor.isspace())
