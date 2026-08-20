@@ -1,5 +1,7 @@
-#Faça um programa que leia um número qualquer e mostre 
-#na tela a sua tabuada.
+"""
+Faça um programa que leia um número qualquer e mostre 
+na tela a sua tabuada.
+"""
 
 #Primeira forma
 valor = int(input('Digite um número para ver sua tabuada:'))
