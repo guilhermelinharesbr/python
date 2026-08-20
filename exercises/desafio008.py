@@ -1,5 +1,7 @@
-#Escreva um programa que leia um valor em metros e o exiba
-#convertido em centímetros e milímetros.
+"""
+Escreva um programa que leia um valor em metros e o exiba
+convertido em centímetros e milímetros.
+"""
 
 #Primeira forma, usando várias variáveis
 valor = float(input('Digite um valor em metros:'))
