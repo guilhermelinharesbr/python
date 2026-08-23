@@ -1,4 +1,5 @@
-"""Faça um programa que leia um ângulo qualquer e mostre 
+"""
+Faça um programa que leia um ângulo qualquer e mostre 
 na tela o valor do seno, cosseno e tangente desse ângulo.
 
 Obs: Para cosseno usar o método math.cos,
@@ -6,7 +7,8 @@ para seno usar o método math.sin,
 para tangente usar o método math.tan e
 para radianos usar o método math.radians.
 Os métodos math.cos, math.sin e math.tan 
-são indicadas em radianos."""
+são indicadas em radianos.
+"""
 
 #Primeira forma
 import math
