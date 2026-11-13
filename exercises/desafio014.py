@@ -1,5 +1,7 @@
-#Escreva um programa que converta uma temperatura digitada
-#em ºC e converta para ºF.
+"""
+Escreva um programa que converta uma temperatura digitada
+em ºC e converta para ºF.
+"""
 
 #Primeira forma
 celsius = float(input('Informe a temperatura em ºC:'))

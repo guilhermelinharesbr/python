@@ -1,6 +1,8 @@
-"""Um professor que sortear um dos seus quatro alunos para 
+"""
+Um professor que sortear um dos seus quatro alunos para 
 apagar o quadro. Faça um programa que ajude ele, lendo o nome 
-deles e escrevendo o nome do escolhido."""
+deles e escrevendo o nome do escolhido.
+"""
 
 #Primeira forma
 import random
